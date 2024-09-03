@@ -1,0 +1,188 @@
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 900px;
+  width: 100%;
+}
+
+h1 {
+  color: #000070;
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading {
+  margin: 48px 0 30px 0;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.head-wrapper {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-title {
+  color: #000070;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menus {
+}
+
+.menus li {
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.head-wrapper ul {
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  justfy-content: space-between;
+}
+
+.head-wrapper li {
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.main-vsual {
+  margin: 0 auto;
+  background-image: url('../img/main-vsual-nontitle.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1200px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.catch-copy {
+  color: #000050;
+  font-size: 20px;
+}
+
+.catch-copy h1 {
+  letter-spacing: 0.05em;
+  margin-bottom: 24px;
+}
+
+.catch-copy p {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 4px 0;
+}
+
+.content {
+  color: #000070;
+}
+
+.content h1 {
+}
+
+.description {
+  height: 260px;
+  display: flex;
+  flex-direction: row;
+}
+
+.description img {
+  padding-right: 34px;
+}
+
+.course-wrapper {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course {
+  flex: 1;
+  max-width: 33.3%;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+
+.course img {
+  width: 100%;
+}
+
+.course p {
+  margin-top: -5px;
+  font-size: 12px;
+}
+
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subheading {
+  color: #000070;
+  font-size: 12px;
+  margin-bottom: -16px;
+}
+
+.contact-wrapper form {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-wrapper input {
+  margin-bottom: 20px;
+  height: 40px;
+  width: 500px;
+  border-radius: 40px;
+  border: 1px solid #00000050;
+}
+
+.contact-wrapper button {
+  margin-bottom: 70px;
+  width: 340px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.foot-wrapper {
+  border-top: 1px solid #00000030;
+  padding: 10px 0;
+}
+
+.foot-wrapper p {
+  font-size: 10px;
+  font-weight: 500;
+  color: #000000;
+  text-align: right;
+}
+
