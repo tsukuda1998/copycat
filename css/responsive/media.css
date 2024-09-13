@@ -1,0 +1,10 @@
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .page-title {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+
+}
